@@ -1,0 +1,8 @@
+uuid: 81101baf-3f95-4538-b189-b994ffed11dd
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categorías de Productos'
+vid: categorias_de_productos
+description: ''
+weight: 0

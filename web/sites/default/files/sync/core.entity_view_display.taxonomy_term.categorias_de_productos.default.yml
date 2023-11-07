@@ -1,0 +1,35 @@
+uuid: 2aedaf4c-f941-49a6-bcbf-b69cd6326cb3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categorias_de_productos.field_tx_imagen_categoria
+    - taxonomy.vocabulary.categorias_de_productos
+  module:
+    - image
+    - text
+id: taxonomy_term.categorias_de_productos.default
+targetEntityType: taxonomy_term
+bundle: categorias_de_productos
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tx_imagen_categoria:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

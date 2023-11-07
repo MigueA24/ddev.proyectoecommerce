@@ -1,0 +1,22 @@
+uuid: 4f36d4dd-2cc9-4570-ae96-8431fc07701c
+langcode: es
+status: true
+dependencies:
+  theme:
+    - ecommerce
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: ecommerce_primary_local_tasks
+theme: ecommerce
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
