@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '1daaa05ce50e203ca5ac092d84f40f71fc620980',
+        'reference' => '7be9ca19bc23b493b40db5c4387390f22e3e6a1b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -160,6 +160,24 @@
             'reference' => '6bcea3e81ab8b3d0abe5fde5300bbc8a968960c7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/reflection',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.4.2',
+            'version' => '3.4.2.0',
+            'reference' => '3.4.2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.29.0',
+            'version' => '3.29.0.0',
+            'reference' => '8.x-3.29',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -352,7 +370,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '1daaa05ce50e203ca5ac092d84f40f71fc620980',
+            'reference' => '7be9ca19bc23b493b40db5c4387390f22e3e6a1b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -553,8 +571,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(

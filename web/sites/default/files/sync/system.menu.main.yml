@@ -1,10 +1,10 @@
 uuid: bec64177-d0b5-4c43-a067-b764e0930356
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: 'Main navigation'
-description: 'Site section links'
+label: 'Navegación principal'
+description: 'Enlaces de secciones del sitio'
 locked: true

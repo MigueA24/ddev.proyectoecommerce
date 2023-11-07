@@ -1,5 +1,5 @@
 uuid: cbef60fc-1c3e-4951-a090-9025c0f1e711
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -26,3 +26,4 @@ hidden:
   comment: true
   field_image: true
   field_tags: true
+  langcode: true
