@@ -1,0 +1,8 @@
+uuid: e9ae767f-6d04-4f47-ab70-a9ac63b22c1c
+langcode: es
+status: true
+dependencies: {  }
+name: 'Ejemplo 2'
+vid: colores
+description: ''
+weight: 0

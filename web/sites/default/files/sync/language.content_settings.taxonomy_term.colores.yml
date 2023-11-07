@@ -1,0 +1,11 @@
+uuid: 8541dbdd-bb25-4b80-b7f2-196a2ac7a39c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.colores
+id: taxonomy_term.colores
+target_entity_type_id: taxonomy_term
+target_bundle: colores
+default_langcode: site_default
+language_alterable: false

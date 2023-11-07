@@ -1,0 +1,11 @@
+uuid: d4eea657-5735-4eac-a9b1-487eb7ab39e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.talla_sudaderas
+id: taxonomy_term.talla_sudaderas
+target_entity_type_id: taxonomy_term
+target_bundle: talla_sudaderas
+default_langcode: site_default
+language_alterable: false

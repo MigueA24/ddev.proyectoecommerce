@@ -1,0 +1,11 @@
+uuid: aec02df9-8b5d-495f-b92d-4996b2e84cdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.talla_ropa
+id: taxonomy_term.talla_ropa
+target_entity_type_id: taxonomy_term
+target_bundle: talla_ropa
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 6a1ad125-afab-4245-90f8-859ba594b387
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.talla_zapato
+id: taxonomy_term.talla_zapato
+target_entity_type_id: taxonomy_term
+target_bundle: talla_zapato
+default_langcode: site_default
+language_alterable: false

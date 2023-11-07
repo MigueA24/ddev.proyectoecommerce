@@ -1,0 +1,14 @@
+uuid: d35dd9d8-8ddd-4f3a-acc7-cbb8bdf290fc
+langcode: es
+status: true
+dependencies: {  }
+id: sudaderas
+label: Sudaderas
+traits: {  }
+locked: false
+description: 'Sudaderas de todo tipos.'
+variationType: sudaderas
+variationTypes:
+  - sudaderas
+multipleVariations: true
+injectVariationFields: true

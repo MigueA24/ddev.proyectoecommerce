@@ -1,0 +1,8 @@
+uuid: 60eb7f8a-a7d6-41f2-9693-a114728978e9
+langcode: es
+status: true
+dependencies: {  }
+name: 'Talla Zapato'
+vid: talla_zapato
+description: 'Talla de todos los zapatos.'
+weight: 0

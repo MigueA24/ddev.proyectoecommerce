@@ -27,3 +27,4 @@ cdn_cache_ttl_library: '0'
 apply: Aplicar
 reset_http_request_cache: ''
 table: ''
+langcode: es

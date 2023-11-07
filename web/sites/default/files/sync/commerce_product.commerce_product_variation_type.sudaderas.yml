@@ -1,0 +1,10 @@
+uuid: a0e3c01e-aea3-4663-aa2c-34bacf6dba98
+langcode: es
+status: true
+dependencies: {  }
+id: sudaderas
+label: Sudaderas
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

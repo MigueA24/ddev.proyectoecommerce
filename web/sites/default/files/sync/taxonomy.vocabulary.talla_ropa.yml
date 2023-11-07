@@ -1,0 +1,8 @@
+uuid: 3eecadc1-0f71-4411-81c2-b795b51a270f
+langcode: es
+status: true
+dependencies: {  }
+name: 'Talla Ropa'
+vid: talla_ropa
+description: 'La talla de toda la ropa, excepto zapatos.'
+weight: 0

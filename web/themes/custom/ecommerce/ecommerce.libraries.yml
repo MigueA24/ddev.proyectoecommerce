@@ -32,3 +32,11 @@ framework:
 #    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
 #    bootstrap/assets/javascripts/bootstrap/tab.js: {}
 #    bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+commerce:
+  version: 1.x
+  css:
+    theme:
+      css/style.scss: {}
+  js:
+    js/cuddly-slider.js: {}

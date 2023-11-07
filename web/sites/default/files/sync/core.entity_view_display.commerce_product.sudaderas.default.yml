@@ -1,0 +1,52 @@
+uuid: c99e2cec-f160-46b4-8576-970c1428073a
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.sudaderas
+    - field.field.commerce_product.sudaderas.body
+    - field.field.commerce_product.sudaderas.field_categoria
+  module:
+    - commerce_product
+    - text
+id: commerce_product.sudaderas.default
+targetEntityType: commerce_product
+bundle: sudaderas
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_categoria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  langcode: true
+  stores: true
+  uid: true

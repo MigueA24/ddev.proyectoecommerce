@@ -1,0 +1,24 @@
+{
+  "name": "ddev.proyectoecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass web/themes/custom/ecommerce/scss/style.scss -o web/themes/custom/ecommerce/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MigueA24/ddev.proyectoecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MigueA24/ddev.proyectoecommerce/issues"
+  },
+  "homepage": "https://github.com/MigueA24/ddev.proyectoecommerce#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
