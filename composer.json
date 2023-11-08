@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap": "^3.29",
         "drupal/color_field": "^3.0",
         "drupal/commerce": "^2.36",

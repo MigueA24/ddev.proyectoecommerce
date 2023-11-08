@@ -6,6 +6,7 @@ dependencies:
     - commerce_product.commerce_product_type.sudaderas
     - field.field.commerce_product.sudaderas.body
     - field.field.commerce_product.sudaderas.field_categoria
+    - field.field.commerce_product.sudaderas.field_descripcion_corta
   module:
     - commerce_product
     - text
@@ -28,6 +29,14 @@ content:
       link: true
     third_party_settings: {  }
     weight: 13
+    region: content
+  field_descripcion_corta:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 14
     region: content
   title:
     type: string
