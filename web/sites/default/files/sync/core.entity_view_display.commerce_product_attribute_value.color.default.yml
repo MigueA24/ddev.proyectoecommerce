@@ -13,21 +13,17 @@ bundle: color
 mode: default
 content:
   field_color:
-    type: color_field_formatter_text
+    type: color_field_formatter_swatch
     label: above
     settings:
-      format: hex
+      shape: square
+      width: '50'
+      height: '50'
       opacity: true
+      data_attribute: false
     third_party_settings: {  }
-    weight: -4
-    region: content
-  name:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
 hidden:
   langcode: true
+  name: true
