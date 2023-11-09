@@ -1,0 +1,21 @@
+uuid: 0608e604-4fd6-415b-91d0-5efc25b776e0
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - ecommerce
+id: cestadelacompra
+theme: ecommerce
+region: header
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Carrito de la compra'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

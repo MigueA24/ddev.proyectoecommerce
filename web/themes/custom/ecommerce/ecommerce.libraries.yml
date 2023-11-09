@@ -38,5 +38,6 @@ commerce:
   css:
     theme:
       css/style.scss: {}
+      css/fontawesome/css/fontawesome-all.min.css: {}
   js:
     js/cuddly-slider.js: {}
