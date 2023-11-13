@@ -155,7 +155,7 @@ class CartBlock extends BlockBase implements ContainerFactoryPluginInterface {
     $links = [];
     $links[] = [
       '#type' => 'link',
-      '#title' => $this->t('Cart'),
+      '#title' => $this->t('Ver el carrito'),
       '#url' => Url::fromRoute('commerce_cart.page'),
     ];
 

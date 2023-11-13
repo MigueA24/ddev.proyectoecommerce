@@ -2,10 +2,15 @@ uuid: 45721584-acc6-468b-a3a1-42e8a1d0e153
 langcode: es
 status: true
 dependencies:
+  config:
+    - field.storage.commerce_product_variation.field_imagen_categoria
+    - image.style.thumbnail
   module:
     - commerce_cart
     - commerce_order
     - commerce_price
+    - commerce_product
+    - image
   enforced:
     module:
       - commerce_cart
@@ -26,17 +31,15 @@ display:
     position: 0
     display_options:
       fields:
-        purchased_entity:
-          id: purchased_entity
-          table: commerce_order_item
-          field: purchased_entity
-          relationship: order_items
+        field_imagen_categoria:
+          id: field_imagen_categoria
+          table: commerce_product_variation__field_imagen_categoria
+          field: field_imagen_categoria
+          relationship: commerce_product_variation
           group_type: group
           admin_label: ''
-          entity_type: commerce_order_item
-          entity_field: purchased_entity
           plugin_id: field
-          label: Item
+          label: 'Imagen Categoría'
           exclude: false
           alter:
             alter_text: false
@@ -78,10 +81,77 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: entity_reference_entity_view
+          type: image
           settings:
-            view_mode: cart
-          group_column: target_id
+            image_link: ''
+            image_style: thumbnail
+            image_loading:
+              attribute: lazy
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ''
+          field_api_classes: false
+        title:
+          id: title
+          table: commerce_order_item
+          field: title
+          relationship: order_items
+          group_type: group
+          admin_label: ''
+          entity_type: commerce_order_item
+          entity_field: title
+          plugin_id: field
+          label: Título
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings: {  }
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -450,6 +520,16 @@ display:
           entity_field: order_items
           plugin_id: standard
           required: true
+        commerce_product_variation:
+          id: commerce_product_variation
+          table: commerce_order_item
+          field: commerce_product_variation
+          relationship: order_items
+          group_type: group
+          admin_label: 'Variación de producto'
+          entity_type: commerce_order_item
+          plugin_id: standard
+          required: true
       header: {  }
       footer:
         commerce_order_total:
@@ -468,4 +548,5 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-      tags: {  }
+      tags:
+        - 'config:field.storage.commerce_product_variation.field_imagen_categoria'

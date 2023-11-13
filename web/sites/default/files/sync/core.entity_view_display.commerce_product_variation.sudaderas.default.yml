@@ -17,7 +17,7 @@ mode: default
 content:
   field_imagen_categoria:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
@@ -28,7 +28,7 @@ content:
     region: content
   field_talla:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: false
     third_party_settings: {  }
@@ -45,7 +45,7 @@ content:
     region: content
   price:
     type: commerce_price_default
-    label: above
+    label: hidden
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
