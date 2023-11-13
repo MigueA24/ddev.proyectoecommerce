@@ -1,0 +1,14 @@
+uuid: 89352d3d-626a-4cf8-8709-50e60afe58d1
+langcode: es
+status: true
+dependencies: {  }
+name: imagenpequena
+label: imagenpequena
+effects:
+  f6d54bf5-a0ec-4eae-86cd-bfbdff0c4c3c:
+    uuid: f6d54bf5-a0ec-4eae-86cd-bfbdff0c4c3c
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100
