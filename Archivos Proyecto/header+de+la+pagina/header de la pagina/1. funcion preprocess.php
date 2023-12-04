@@ -1,0 +1,12 @@
+
+
+function jhonatantheme_preprocess_page(&$variables) {
+  $site_config = \Drupal::config('system.site');
+  $variables['site_name'] = $site_config->get('name');
+  $variables['site_slogan'] = $site_config->get('slogan');
+
+  $variables['site_logo'] = file_url_transform_relative(file_create_url(theme_get_setting('logo.url')));
+
+//si quieren tener la url del logo pueden accerlo de esta manera.
+  $variables['url_logo'] = file_create_url(theme_get_setting('logo.url'));
+}

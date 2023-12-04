@@ -1,6 +1,6 @@
 uuid: edb25e19-758c-48a9-9ea8-e4dc9186ed7f
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: ecommerce_breadcrumbs
 theme: ecommerce
 region: navigation
-weight: 0
+weight: -9
 provider: null
 plugin: system_breadcrumb_block
 settings:

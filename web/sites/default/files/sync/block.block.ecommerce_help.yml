@@ -1,6 +1,6 @@
 uuid: f787b318-fec1-4617-b080-38cfd71ac01e
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: ecommerce_help
 theme: ecommerce
 region: navigation
-weight: 0
+weight: -5
 provider: null
 plugin: help_block
 settings:

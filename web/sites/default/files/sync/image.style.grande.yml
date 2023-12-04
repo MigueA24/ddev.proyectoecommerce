@@ -1,0 +1,15 @@
+uuid: ee1585cc-37be-470f-b51a-a086bbeba9a8
+langcode: es
+status: true
+dependencies: {  }
+name: grande
+label: Grandefotos
+effects:
+  db3bdb4d-fa49-4b3e-ac37-f21edb6d346b:
+    uuid: db3bdb4d-fa49-4b3e-ac37-f21edb6d346b
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      upscale: false

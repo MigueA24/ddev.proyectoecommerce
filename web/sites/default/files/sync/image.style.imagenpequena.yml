@@ -1,12 +1,12 @@
-uuid: 89352d3d-626a-4cf8-8709-50e60afe58d1
+uuid: 9143eda9-7cf4-4f52-b057-934d8779f8ca
 langcode: es
 status: true
 dependencies: {  }
 name: imagenpequena
 label: imagenpequena
 effects:
-  f6d54bf5-a0ec-4eae-86cd-bfbdff0c4c3c:
-    uuid: f6d54bf5-a0ec-4eae-86cd-bfbdff0c4c3c
+  c421c381-f2cd-4a8d-a5e6-e66df60e48c1:
+    uuid: c421c381-f2cd-4a8d-a5e6-e66df60e48c1
     id: image_resize
     weight: 1
     data:

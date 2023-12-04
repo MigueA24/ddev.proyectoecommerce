@@ -10,8 +10,8 @@ _core:
   default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
 id: ecommerce_content
 theme: ecommerce
-region: content
-weight: 0
+region: header
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

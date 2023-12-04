@@ -1,6 +1,6 @@
 uuid: 01edfd87-48a2-4df5-8483-cfe491a8a4c8
 langcode: es
-status: true
+status: false
 dependencies:
   theme:
     - ecommerce

@@ -41,6 +41,36 @@
 
   {{ product.variation_field_imagen_categoria }}
 
+  {% set imagen = product.variation_field_imagen_categoria %}
+
+  {# imagen #}
+
+  {% for img in imagen %}
+
+     {% if img.entity %}
+
+        {% for imgv in img %}
+
+       {{ dump( img|keys) }}
+       {{ dump( imgv.entity.uri.value) }}
+       {{ dump( file_url( imgv.entity.uri.value ))}}
+
+          {% set imagestyle = {
+            '#theme':      'image_style',
+            '#style_name': 'large',
+            '#uri':        imgv.entity.uri.value,
+            '#alt':        imgv.alt,
+            '#attributes': { class: 'pruebaclase' },
+          } %}
+
+          {{ imagestyle }}
+
+        {% endfor %}
+
+    {% endif %}
+
+  {% endfor %}
+
 </div>
 
 <div class="col-md-6">

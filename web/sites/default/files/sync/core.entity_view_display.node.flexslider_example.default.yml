@@ -1,0 +1,33 @@
+uuid: 5a9b3a5c-2226-49f8-85bb-8ed4278bae0f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.flexslider_example.field_flexslider_example_image
+    - field.field.node.flexslider_example.field_flexslider_example_slidesh
+    - node.type.flexslider_example
+  module:
+    - flexslider_fields
+    - user
+_core:
+  default_config_hash: UgvjWu_D4lU-HuJQe4OwwOLQKiabZZl47bn5i20GhmA
+id: node.flexslider_example.default
+targetEntityType: node
+bundle: flexslider_example
+mode: default
+content:
+  field_flexslider_example_slidesh:
+    type: flexslider
+    label: above
+    settings:
+      optionset: flexslider_default_thumbnail_slider
+      image_style: ''
+      caption: '1'
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_flexslider_example_image: true
+  langcode: true
+  links: true

@@ -1,6 +1,6 @@
 uuid: ff413395-034d-4e32-a150-75b1c43841e6
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: ecommerce_powered
 theme: ecommerce
 region: navigation
-weight: 0
+weight: -3
 provider: null
 plugin: system_powered_by_block
 settings:

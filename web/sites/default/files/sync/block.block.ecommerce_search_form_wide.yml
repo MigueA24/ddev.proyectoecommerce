@@ -1,6 +1,6 @@
 uuid: 24d09979-a876-41c7-91f8-147e1c2cffdf
 langcode: es
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: ecommerce_search_form_wide
 theme: ecommerce
 region: navigation
-weight: -5
+weight: -8
 provider: null
 plugin: search_form_block
 settings:
