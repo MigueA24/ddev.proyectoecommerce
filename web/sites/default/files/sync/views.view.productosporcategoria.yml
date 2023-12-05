@@ -415,7 +415,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"col-lg-4 col-md-6 espaciohaciaabajo\">\r\n                    <div class=\"card\">\r\n\r\n                        <img class=\"img-responsive\" src=\"{{ field_imagen_categoria }}\">\r\n                        <h4>{{ title }}</h4>\r\n\t\t\t</a>\r\n                        <p>{{ field_descripcion_corta }}</p> \r\n\t\t\t\t\t\t<div class=\"price-wrap h5\">\r\n\t\t\t\t\t\t\t<span class=\"price-new\">{{ price__number }}</span> \r\n\t\t\t\t\t\t</div>\r\n                        <a href=\"{{ view_commerce_product }}\" class=\"blue-button\">Ver detalles</a>\r\n                    </div>\r\n                </div>"
+            text: "<div class=\"col-lg-3 col-md-6 espaciohaciaabajo\">\r\n    <div class=\"card text-center\">\r\n\r\n        <img class=\"img-responsive\" src=\"{{ field_imagen_categoria }}\">\r\n        <h4>{{ title }}</h4>\r\n        <div class=\"price-wrap h5\">\r\n            <span class=\"price-new\">{{ price__number }}</span> \r\n        </div>\r\n        <a href=\"{{ view_commerce_product }}\" class=\"blue-button\">Ver detalles</a>\r\n\r\n    </div>\r\n</div>\r\n"
             make_link: true
             path: '{{ view_commerce_product }}'
             absolute: false

@@ -1,0 +1,25 @@
+uuid: 33646e89-644b-4b18-8b36-ae3ac0bc083a
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.principal
+  module:
+    - system
+  theme:
+    - ecommerce
+id: principal
+theme: ecommerce
+region: navigation
+weight: -10
+provider: null
+plugin: 'system_menu_block:principal'
+settings:
+  id: 'system_menu_block:principal'
+  label: Principal
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

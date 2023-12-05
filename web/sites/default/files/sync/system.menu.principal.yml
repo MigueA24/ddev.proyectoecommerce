@@ -1,0 +1,8 @@
+uuid: 9015e2b7-bca2-4a28-ae2f-54cc0d34d946
+langcode: es
+status: true
+dependencies: {  }
+id: principal
+label: Principal
+description: 'Menu principal, contendrá inicio, hombre, mujer, niños'
+locked: false
