@@ -1,0 +1,19 @@
+uuid: fcecf0e4-e4d5-41c8-95ec-10cbaf3b8158
+langcode: es
+status: true
+dependencies: {  }
+id: prueba
+label: Prueba
+weight: null
+plugin: manual
+configuration:
+  display_label: Prueba
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

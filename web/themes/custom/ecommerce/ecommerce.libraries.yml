@@ -50,8 +50,8 @@ commerceslider:
       css/style.scss: {}
   js:
     js/ecommerce/flex.js: {}
-    js/ecommerce/jquery.elevatezoom.js: {}
     js/ecommerce/custom.js: {}
+    js/ecommerce/jquery.elevatezoom.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once
