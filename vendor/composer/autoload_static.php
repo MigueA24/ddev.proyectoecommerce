@@ -86,7 +86,9 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Svg\\' => 4,
             'SelfUpdate\\' => 11,
+            'Sabberworm\\CSS\\' => 15,
         ),
         'R' => 
         array (
@@ -124,6 +126,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
             'GuzzleHttp\\' => 11,
             'Grasmash\\Expander\\' => 18,
         ),
+        'F' => 
+        array (
+            'FontLib\\' => 8,
+        ),
         'E' => 
         array (
             'Enlightn\\SecurityChecker\\' => 25,
@@ -139,6 +145,7 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
             'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 38,
             'Drupal\\Component\\' => 17,
             'DrupalCodeGenerator\\' => 20,
+            'Dompdf\\' => 7,
             'Doctrine\\Persistence\\' => 21,
             'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
@@ -308,9 +315,17 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
+        'Svg\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg',
+        ),
         'SelfUpdate\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
+        ),
+        'Sabberworm\\CSS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
         ),
         'Robo\\' => 
         array (
@@ -385,6 +400,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
         ),
+        'FontLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
+        ),
         'Enlightn\\SecurityChecker\\' => 
         array (
             0 => __DIR__ . '/..' . '/enlightn/security-checker/src',
@@ -424,6 +443,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         'DrupalCodeGenerator\\' => 
         array (
             0 => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src',
+        ),
+        'Dompdf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
         ),
         'Doctrine\\Persistence\\' => 
         array (
@@ -543,6 +566,7 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Dompdf\\Cpdf' => __DIR__ . '/..' . '/dompdf/dompdf/lib/Cpdf.php',
         'Drupal' => __DIR__ . '/../..' . '/web/core/lib/Drupal.php',
         'DrupalFinder\\DrupalFinder' => __DIR__ . '/..' . '/webflo/drupal-finder/src/DrupalFinder.php',
         'Drupal\\Component\\DependencyInjection\\Container' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Component/DependencyInjection/Container.php',
