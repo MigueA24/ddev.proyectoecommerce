@@ -11,6 +11,10 @@ h1 {
 .navbar-default {
   color: #007bff; }
 
+.navbar-nav {
+  margin-right: 90px;
+  margin-top: -43px; }
+
 .color_field__swatch {
   display: inline-block;
   border: 1px solid; }
@@ -390,7 +394,8 @@ h1 {
   margin-bottom: 0; }
 
 .float-right {
-  float: right !important; }
+  float: right !important;
+  margin-top: 5px; }
 
 .icon-wrap {
   border-radius: 5px;
