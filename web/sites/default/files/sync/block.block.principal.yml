@@ -11,7 +11,7 @@ dependencies:
 id: principal
 theme: ecommerce
 region: navigation
-weight: -10
+weight: -8
 provider: null
 plugin: 'system_menu_block:principal'
 settings:

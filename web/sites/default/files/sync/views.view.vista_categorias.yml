@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_tx_imagen_categoria
-    - image.style.thumbnail
+    - image.style.large
     - taxonomy.vocabulary.categorias_de_productos
   module:
     - image
@@ -210,7 +210,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: thumbnail
+            image_style: large
             image_loading:
               attribute: lazy
           group_column: ''

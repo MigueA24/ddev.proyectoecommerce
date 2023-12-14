@@ -11,7 +11,7 @@ _core:
 id: ecommerce_help
 theme: ecommerce
 region: navigation
-weight: -5
+weight: -3
 provider: null
 plugin: help_block
 settings:

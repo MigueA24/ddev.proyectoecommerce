@@ -8,8 +8,8 @@ _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: ecommerce_primary_local_tasks
 theme: ecommerce
-region: highlighted
-weight: -4
+region: navigation
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:

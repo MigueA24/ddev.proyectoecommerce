@@ -11,7 +11,7 @@ _core:
 id: ecommerce_breadcrumbs
 theme: ecommerce
 region: navigation
-weight: -9
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:
