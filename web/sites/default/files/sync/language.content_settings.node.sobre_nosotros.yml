@@ -1,0 +1,11 @@
+uuid: 4f73694a-f57d-4d43-b60e-8fb790bbe163
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sobre_nosotros
+id: node.sobre_nosotros
+target_entity_type_id: node
+target_bundle: sobre_nosotros
+default_langcode: site_default
+language_alterable: false

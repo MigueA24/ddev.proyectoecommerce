@@ -11,9 +11,6 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       fields:
-        purchased_entity:
-          label: Item
-          separator: ', '
         unit_price__number:
           label: Price
           separator: ', '

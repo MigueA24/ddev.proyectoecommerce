@@ -7,4 +7,4 @@ label: Sudaderas
 traits: {  }
 locked: false
 orderItemType: default
-generateTitle: null
+generateTitle: false

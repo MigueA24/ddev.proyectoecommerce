@@ -1,0 +1,59 @@
+uuid: b3b12fb5-6671-4adb-ae94-6de62bee5020
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.sobre_nosotros.field_descrip
+    - field.field.node.sobre_nosotros.field_imagen_foto
+    - field.field.node.sobre_nosotros.field_imagen_logo
+    - field.field.node.sobre_nosotros.field_minititulo
+    - node.type.sobre_nosotros
+  module:
+    - image
+    - text
+    - user
+id: node.sobre_nosotros.default
+targetEntityType: node
+bundle: sobre_nosotros
+mode: default
+content:
+  field_descrip:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imagen_foto:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_imagen_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_minititulo:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  links: true

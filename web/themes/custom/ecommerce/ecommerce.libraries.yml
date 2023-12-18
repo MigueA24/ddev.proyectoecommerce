@@ -43,6 +43,7 @@ commerce:
     js/cuddly-slider.js: {}
 
 
+
 commerceslider:
   version: 1.x
   css:

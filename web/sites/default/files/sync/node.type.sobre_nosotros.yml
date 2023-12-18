@@ -1,0 +1,17 @@
+uuid: 8f05b225-0906-4600-a15f-8ed7efce1df8
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Sobre nosotros'
+type: sobre_nosotros
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

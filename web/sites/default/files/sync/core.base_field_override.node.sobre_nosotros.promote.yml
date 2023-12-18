@@ -1,0 +1,22 @@
+uuid: 4aa3bd91-7a83-41d3-9bd6-9136a8c039de
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sobre_nosotros
+id: node.sobre_nosotros.promote
+field_name: promote
+entity_type: node
+bundle: sobre_nosotros
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

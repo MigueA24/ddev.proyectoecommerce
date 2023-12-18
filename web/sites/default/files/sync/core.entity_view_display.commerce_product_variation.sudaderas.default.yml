@@ -29,7 +29,7 @@ content:
     region: content
   field_talla:
     type: entity_reference_label
-    label: hidden
+    label: above
     settings:
       link: false
     third_party_settings: {  }
@@ -42,7 +42,7 @@ content:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
-    weight: -1
+    weight: 0
     region: content
   price:
     type: commerce_price_default
@@ -51,7 +51,7 @@ content:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
   attribute_color: true

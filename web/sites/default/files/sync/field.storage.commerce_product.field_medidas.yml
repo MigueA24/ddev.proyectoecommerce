@@ -1,0 +1,30 @@
+uuid: 1d92712c-d74f-4dba-8f0a-afbf71a4d86c
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - file
+    - image
+id: commerce_product.field_medidas
+field_name: field_medidas
+entity_type: commerce_product
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: b3e3b26d-0062-4fca-8565-ca110a09e60f
+    alt: ''
+    title: ''
+    width: 552
+    height: 241
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

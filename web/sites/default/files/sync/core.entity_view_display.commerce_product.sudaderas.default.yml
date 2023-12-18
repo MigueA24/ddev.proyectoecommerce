@@ -8,8 +8,10 @@ dependencies:
     - field.field.commerce_product.sudaderas.field_categoria
     - field.field.commerce_product.sudaderas.field_descripcion_corta
     - field.field.commerce_product.sudaderas.field_especificaciones
+    - field.field.commerce_product.sudaderas.field_medidas
   module:
     - commerce_product
+    - image
     - text
 id: commerce_product.sudaderas.default
 targetEntityType: commerce_product
@@ -27,7 +29,7 @@ content:
     type: entity_reference_label
     label: above
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     weight: 13
     region: content
@@ -45,6 +47,17 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 15
+    region: content
+  field_medidas:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 16
     region: content
   title:
     type: string

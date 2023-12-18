@@ -8,8 +8,11 @@ dependencies:
     - field.field.commerce_product.sudaderas.field_categoria
     - field.field.commerce_product.sudaderas.field_descripcion_corta
     - field.field.commerce_product.sudaderas.field_especificaciones
+    - field.field.commerce_product.sudaderas.field_medidas
+    - image.style.thumbnail
   module:
     - commerce
+    - image
     - path
     - text
 id: commerce_product.sudaderas.default
@@ -54,6 +57,14 @@ content:
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  field_medidas:
+    type: image_image
+    weight: 11
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   langcode:
     type: language_select

@@ -1,0 +1,29 @@
+uuid: 71a5597f-ca17-42ff-9d1e-65411b142a21
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sobre_nosotros.field_descrip
+    - field.field.node.sobre_nosotros.field_imagen_foto
+    - field.field.node.sobre_nosotros.field_imagen_logo
+    - field.field.node.sobre_nosotros.field_minititulo
+    - node.type.sobre_nosotros
+  module:
+    - user
+id: node.sobre_nosotros.teaser
+targetEntityType: node
+bundle: sobre_nosotros
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descrip: true
+  field_imagen_foto: true
+  field_imagen_logo: true
+  field_minititulo: true
+  langcode: true

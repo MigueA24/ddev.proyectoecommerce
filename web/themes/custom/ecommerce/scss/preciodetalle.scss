@@ -5,9 +5,16 @@
 
 .divpreciodetalle .price-new{
   float: left;
+
 }
 
 .divpreciodetalle .price-old{
   float: left;
   padding-top: 3px;
+}
+
+.field.field--name-price.field--type-commerce-price.field--label-hidden.field--item {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ef5f5f;
 }

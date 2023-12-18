@@ -3,7 +3,6 @@ _core:
 schemas:
   bootstrap: 8000
   ecommerce: 8000
-cdn_provider: jsdelivr
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -15,9 +14,9 @@ features:
   favicon: 1
   node_user_picture: 1
 logo:
-  path: ''
+  path: 'public://Logo si fondo.png'
   url: ''
-  use_default: 1
+  use_default: 0
 table_responsive: '-1'
 cdn_theme: bootstrap
 cdn_cache_ttl_versions: '604800'
@@ -27,4 +26,14 @@ cdn_cache_ttl_library: '0'
 apply: Aplicar
 reset_http_request_cache: ''
 table: ''
-langcode: es
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+  iconos: ''

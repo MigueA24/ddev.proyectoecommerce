@@ -10,7 +10,7 @@ id: commerce_product_variation.sudaderas.field_talla
 field_name: field_talla
 entity_type: commerce_product_variation
 bundle: sudaderas
-label: Talla
+label: 'Tallas disponibles'
 description: ''
 required: false
 translatable: false

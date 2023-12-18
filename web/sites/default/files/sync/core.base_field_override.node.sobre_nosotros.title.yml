@@ -1,0 +1,18 @@
+uuid: 73c3c38a-d0a3-4f9c-b982-e091f3a7c739
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.sobre_nosotros
+id: node.sobre_nosotros.title
+field_name: title
+entity_type: node
+bundle: sobre_nosotros
+label: 'Acerca de nosotros'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

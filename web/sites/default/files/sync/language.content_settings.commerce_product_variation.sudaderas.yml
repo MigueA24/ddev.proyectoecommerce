@@ -1,0 +1,11 @@
+uuid: aa821f42-636c-4aad-b08f-cc50b18066ab
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.sudaderas
+id: commerce_product_variation.sudaderas
+target_entity_type_id: commerce_product_variation
+target_bundle: sudaderas
+default_langcode: site_default
+language_alterable: false

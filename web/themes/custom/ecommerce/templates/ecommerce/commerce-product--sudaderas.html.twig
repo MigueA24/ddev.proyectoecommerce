@@ -63,17 +63,18 @@
 
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#Descripcion">Descripción</a></li>
-    <li><a data-toggle="tab" href="#Especificaciones">Especificaciones</a></li>
+    <li><a data-toggle="tab" href="#Especificaciones">Tallas y Dimensiones</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="Descripcion" class="tab-pane fade in active">
-      <h3>Descripción</h3>
+      <h3><strong>Descripción</strong></h3>
       <p> {{ product.body }}</p>
     </div>
     <div id="Especificaciones" class="tab-pane fade">
-      <h3>Especificaciones</h3>
-      <p> {{ product.field_especificaciones }}</p>
+      <br>
+      <h4><strong>Medidas del producto</strong></h4>
+      <p> {{ product.field_medidas }}</p>
     </div>
   </div>
 </div>
