@@ -1,0 +1,18 @@
+uuid: 2ab235e6-2fda-4c77-9c39-35503ef66b8b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.ayuda
+id: node.ayuda.title
+field_name: title
+entity_type: node
+bundle: ayuda
+label: Ayuda
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,71 @@
+uuid: fc80f8a1-d58c-4456-8d21-7a61c8d916d8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.ayuda.field_imagen_fotoa
+    - field.field.node.ayuda.field_imagen_fotob
+    - field.field.node.ayuda.field_imagen_logoa
+    - field.field.node.ayuda.field_minitituloa
+    - field.field.node.ayuda.field_texto_ayuda
+    - node.type.ayuda
+  module:
+    - image
+    - text
+    - user
+id: node.ayuda.default
+targetEntityType: node
+bundle: ayuda
+mode: default
+content:
+  field_imagen_fotoa:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_imagen_fotob:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_imagen_logoa:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_minitituloa:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_texto_ayuda:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  links: true

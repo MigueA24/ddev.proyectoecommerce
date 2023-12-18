@@ -503,3 +503,32 @@ body {
   margin-top: 85px;
   margin-bottom: -225px;
   font-size: 17px; }
+
+article.contextual-region.ayuda.is-unpublished.full.clearfix {
+  background-color: white; }
+
+.field.field--name-field-minitituloa.field--type-string.field--label-hidden.field--item {
+  margin-left: 55px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px; }
+
+.field.field--name-field-imagen-logoa.field--type-image.field--label-hidden.field--item {
+  margin-top: -35px; }
+
+.field.field--name-field-imagen-fotoa.field--type-image.field--label-hidden.field--item {
+  height: 200px;
+  width: 500px;
+  margin-bottom: 80px; }
+
+.field.field--name-field-imagen-fotob.field--type-image.field--label-hidden.field--item {
+  height: 200px;
+  width: 500px;
+  margin-bottom: 205px; }
+
+.field.field--name-field-texto-ayuda.field--type-text-with-summary.field--label-hidden.field--item {
+  text-align: justify;
+  margin-left: 545px;
+  margin-top: 60px;
+  margin-bottom: -625px;
+  font-size: 17px; }

@@ -1,0 +1,17 @@
+uuid: dcf8606b-50ae-41c8-ad71-48dfc71a1992
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Ayuda
+type: ayuda
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

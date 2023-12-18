@@ -1,0 +1,23 @@
+uuid: e517bfea-08f1-44ba-ae9f-279e70752854
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_ayuda
+    - node.type.ayuda
+  module:
+    - text
+id: node.ayuda.field_texto_ayuda
+field_name: field_texto_ayuda
+entity_type: node
+bundle: ayuda
+label: texto_ayuda
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,31 @@
+uuid: 98c96b89-89c2-46bc-8e2e-380b5484b536
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ayuda.field_imagen_fotoa
+    - field.field.node.ayuda.field_imagen_fotob
+    - field.field.node.ayuda.field_imagen_logoa
+    - field.field.node.ayuda.field_minitituloa
+    - field.field.node.ayuda.field_texto_ayuda
+    - node.type.ayuda
+  module:
+    - user
+id: node.ayuda.teaser
+targetEntityType: node
+bundle: ayuda
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_imagen_fotoa: true
+  field_imagen_fotob: true
+  field_imagen_logoa: true
+  field_minitituloa: true
+  field_texto_ayuda: true
+  langcode: true

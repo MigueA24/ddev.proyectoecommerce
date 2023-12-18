@@ -1,0 +1,11 @@
+uuid: d18b4433-9a3f-4629-ace5-9a7baa962e97
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.ayuda
+id: node.ayuda
+target_entity_type_id: node
+target_bundle: ayuda
+default_langcode: site_default
+language_alterable: false
