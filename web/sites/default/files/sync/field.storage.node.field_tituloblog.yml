@@ -1,0 +1,21 @@
+uuid: 0cf89cfa-7b5e-45cd-9b45-e6478efda29d
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_tituloblog
+field_name: field_tituloblog
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

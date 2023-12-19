@@ -1,0 +1,19 @@
+uuid: 78490d3c-7cd7-4b46-9dd1-4b4122cbeb14
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_textoblog
+field_name: field_textoblog
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

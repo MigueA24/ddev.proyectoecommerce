@@ -1,0 +1,79 @@
+//Fondo
+article.contextual-region.blog.is-unpublished.full.clearfix {
+  background-color: white;
+}
+
+//titulo
+.field.field--name-field-minitituloblog.field--type-string.field--label-hidden.field--item {
+  margin-left: 55px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+//Logo
+.field.field--name-field-imagen-logoblog.field--type-image.field--label-hidden.field--item {
+  margin-top: -35px;
+}
+
+//Titulo
+.field.field--name-field-tituloblog.field--type-string.field--label-hidden.field--item {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+//texto
+.field.field--name-field-textoblog.field--type-text-with-summary.field--label-hidden.field--item {
+  text-align: justify;
+  margin-right: 580px;
+  margin-top: 100px;
+  margin-bottom: -625px;
+  font-size: 22px;
+}
+
+//imagen1
+.field.field--name-field-imagenblog1.field--type-image.field--label-hidden.field--item {
+  height: 180px;
+  width: 400px;
+  margin-bottom: 300px;
+  margin-left: 650px;
+  position: relative;
+  top: -615px;
+  overflow: hidden;
+}
+
+//imagen2
+.field.field--name-field-imagenblog2.field--type-image.field--label-hidden.field--item {
+  height: 180px;
+  width: 400px;
+  margin-top: -200px;
+  margin-left: 650px;
+  position: relative;
+  top: -615px;
+  overflow: hidden;
+}
+
+//imagen3
+.field.field--name-field-imagenblog3.field--type-image.field--label-hidden.field--item {
+  eight: 180px;
+  width: 400px;
+  margin-top: 90px;
+  margin-left: 650px;
+  position: relative;
+  top: -615px;
+  overflow: hidden;
+}
+
+//imagen4
+.field.field--name-field-imagenblog4.field--type-image.field--label-hidden.field--item {
+  height: 180px;
+  width: 400px;
+  margin-top: 85px;
+  margin-bottom: -265px;
+  margin-left: 650px;
+  position: relative;
+  top: -615px;
+  overflow: hidden;
+}

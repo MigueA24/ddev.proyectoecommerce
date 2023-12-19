@@ -1,0 +1,37 @@
+uuid: fcdbb80e-b248-48c7-9131-9083f0c4bef0
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blog.field_imagen_logoblog
+    - field.field.node.blog.field_imagenblog1
+    - field.field.node.blog.field_imagenblog2
+    - field.field.node.blog.field_imagenblog3
+    - field.field.node.blog.field_imagenblog4
+    - field.field.node.blog.field_minitituloblog
+    - field.field.node.blog.field_textoblog
+    - field.field.node.blog.field_tituloblog
+    - node.type.blog
+  module:
+    - user
+id: node.blog.teaser
+targetEntityType: node
+bundle: blog
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_imagen_logoblog: true
+  field_imagenblog1: true
+  field_imagenblog2: true
+  field_imagenblog3: true
+  field_imagenblog4: true
+  field_minitituloblog: true
+  field_textoblog: true
+  field_tituloblog: true
+  langcode: true

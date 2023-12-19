@@ -1,0 +1,19 @@
+uuid: 28b8d8ba-a2b7-4f76-894f-c1174a75f394
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_minitituloblog
+    - node.type.blog
+id: node.blog.field_minitituloblog
+field_name: field_minitituloblog
+entity_type: node
+bundle: blog
+label: MiniTituloblog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

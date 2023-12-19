@@ -1,0 +1,23 @@
+uuid: 9c3dfe3d-b1f8-4f9d-b8f9-b00ea8dc3aef
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_textoblog
+    - node.type.blog
+  module:
+    - text
+id: node.blog.field_textoblog
+field_name: field_textoblog
+entity_type: node
+bundle: blog
+label: textoblog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

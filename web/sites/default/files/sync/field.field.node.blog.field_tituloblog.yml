@@ -1,0 +1,19 @@
+uuid: 6fc5cb35-381a-4bd9-9f14-bdf368103acd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tituloblog
+    - node.type.blog
+id: node.blog.field_tituloblog
+field_name: field_tituloblog
+entity_type: node
+bundle: blog
+label: tituloblog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

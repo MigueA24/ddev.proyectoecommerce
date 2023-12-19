@@ -1,9 +1,12 @@
 //Fondo
-
 article.contextual-region.ayuda.is-unpublished.full.clearfix {
   background-color: white;
 }
 
+//Contorno
+a:focus {
+  outline: none;
+}
 
 //titulo
 .field.field--name-field-minitituloa.field--type-string.field--label-hidden.field--item {
