@@ -1,0 +1,11 @@
+uuid: b412d236-c952-44cf-963c-5f0af6b77e33
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.productos_mas_vendidos
+id: taxonomy_term.productos_mas_vendidos
+target_entity_type_id: taxonomy_term
+target_bundle: productos_mas_vendidos
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,8 @@
+uuid: 4b0a84af-6fe2-4d89-9480-76a6c5c967f1
+langcode: es
+status: true
+dependencies: {  }
+name: 'Productos Recomendados'
+vid: productos_recomendados
+description: ''
+weight: 0

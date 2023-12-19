@@ -1,0 +1,49 @@
+uuid: 0bab2afc-1128-4d62-a994-e1e8f2714ec2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.productos_mas_vendidos.field_enlacemasvendidos
+    - field.field.taxonomy_term.productos_mas_vendidos.field_imagenproductomasvendido
+    - taxonomy.vocabulary.productos_mas_vendidos
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.productos_mas_vendidos.default
+targetEntityType: taxonomy_term
+bundle: productos_mas_vendidos
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_enlacemasvendidos:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imagenproductomasvendido:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

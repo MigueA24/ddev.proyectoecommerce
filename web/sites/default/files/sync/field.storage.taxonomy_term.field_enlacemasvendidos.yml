@@ -1,0 +1,19 @@
+uuid: 24da798c-fae9-45e8-8de9-994184aea160
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - taxonomy
+id: taxonomy_term.field_enlacemasvendidos
+field_name: field_enlacemasvendidos
+entity_type: taxonomy_term
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,27 +1,27 @@
-uuid: 378a9aff-47f8-4f28-b07d-d88a9c2d04dc
+uuid: fdce55c7-dde1-49a3-b84f-27a3fb1caca1
 langcode: es
 status: true
 dependencies:
   config:
-    - views.view.slidershow
+    - views.view.productos_mas_vendidos
   module:
     - system
     - views
   theme:
     - ecommerce
-id: views_block__slidershow_block_1
+id: views_block__productos_mas_vendidos_block_1
 theme: ecommerce
-region: header
+region: content
 weight: -9
 provider: null
-plugin: 'views_block:slidershow-block_1'
+plugin: 'views_block:productos_mas_vendidos-block_1'
 settings:
-  id: 'views_block:slidershow-block_1'
+  id: 'views_block:productos_mas_vendidos-block_1'
   label: ''
   label_display: visible
   provider: views
   views_label: ''
-  items_per_page: '40'
+  items_per_page: none
 visibility:
   request_path:
     id: request_path

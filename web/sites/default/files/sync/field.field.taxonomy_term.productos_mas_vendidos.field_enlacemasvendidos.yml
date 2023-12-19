@@ -1,0 +1,23 @@
+uuid: 5d5bfd0d-8f54-402f-a49b-c417b4a80700
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_enlacemasvendidos
+    - taxonomy.vocabulary.productos_mas_vendidos
+  module:
+    - link
+id: taxonomy_term.productos_mas_vendidos.field_enlacemasvendidos
+field_name: field_enlacemasvendidos
+entity_type: taxonomy_term
+bundle: productos_mas_vendidos
+label: enlacemasvendidos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

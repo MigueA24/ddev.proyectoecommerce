@@ -1,0 +1,11 @@
+uuid: 6f16cc03-2daf-4ccc-8f35-7eb39e698e8a
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.productos_recomendados
+id: taxonomy_term.productos_recomendados
+target_entity_type_id: taxonomy_term
+target_bundle: productos_recomendados
+default_langcode: site_default
+language_alterable: false

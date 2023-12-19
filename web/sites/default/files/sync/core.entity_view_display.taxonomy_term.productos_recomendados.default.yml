@@ -1,0 +1,49 @@
+uuid: c64f9f79-3eee-4bb2-9ac6-233a48298b5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.productos_recomendados.field_enlace
+    - field.field.taxonomy_term.productos_recomendados.field_imagenproductorecomendado
+    - taxonomy.vocabulary.productos_recomendados
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.productos_recomendados.default
+targetEntityType: taxonomy_term
+bundle: productos_recomendados
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_enlace:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imagenproductorecomendado:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
