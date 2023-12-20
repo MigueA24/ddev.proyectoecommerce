@@ -1,0 +1,10 @@
+uuid: c99e394a-2aab-4983-bb6b-d8ed8addd9f0
+langcode: es
+status: true
+dependencies: {  }
+id: pantalones
+label: Pantalones
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

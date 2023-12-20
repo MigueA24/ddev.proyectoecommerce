@@ -1,0 +1,61 @@
+uuid: d1be4f2a-2126-4a46-8295-60424785a031
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.pantalones
+    - field.field.commerce_product_variation.pantalones.attribute_color
+    - field.field.commerce_product_variation.pantalones.field_imagen_categoria
+    - field.field.commerce_product_variation.pantalones.field_talla
+    - image.style.large
+  module:
+    - commerce_price
+    - image
+id: commerce_product_variation.pantalones.default
+targetEntityType: commerce_product_variation
+bundle: pantalones
+mode: default
+content:
+  field_imagen_categoria:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_talla:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  list_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  price:
+    type: commerce_price_default
+    label: hidden
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  attribute_color: true
+  langcode: true
+  product_id: true
+  sku: true
+  title: true

@@ -1,0 +1,14 @@
+uuid: 578dfe00-fc21-4371-ae6c-8006c1a6a573
+langcode: es
+status: true
+dependencies: {  }
+id: zapatos
+label: Zapatos
+traits: {  }
+locked: false
+description: 'Zapatos de todo tipos.'
+variationType: zapatos
+variationTypes:
+  - zapatos
+multipleVariations: true
+injectVariationFields: true

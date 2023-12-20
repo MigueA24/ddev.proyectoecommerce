@@ -1,0 +1,29 @@
+uuid: 2b876c67-cb93-4566-b9c9-4257506598c3
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.pantalones
+    - field.storage.commerce_product_variation.field_talla
+    - taxonomy.vocabulary.talla_ropa
+id: commerce_product_variation.pantalones.field_talla
+field_name: field_talla
+entity_type: commerce_product_variation
+bundle: pantalones
+label: 'Tallas disponibles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      talla_ropa: talla_ropa
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

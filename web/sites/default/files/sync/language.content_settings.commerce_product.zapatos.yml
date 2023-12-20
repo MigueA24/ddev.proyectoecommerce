@@ -1,0 +1,11 @@
+uuid: 5052eb12-58f7-4b29-8c80-89062bd10628
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.zapatos
+id: commerce_product.zapatos
+target_entity_type_id: commerce_product
+target_bundle: zapatos
+default_langcode: site_default
+language_alterable: false

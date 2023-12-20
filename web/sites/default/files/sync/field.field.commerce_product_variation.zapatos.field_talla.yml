@@ -1,0 +1,29 @@
+uuid: b37cb51f-72ca-4b94-827d-a52346534fde
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.zapatos
+    - field.storage.commerce_product_variation.field_talla
+    - taxonomy.vocabulary.talla_zapato
+id: commerce_product_variation.zapatos.field_talla
+field_name: field_talla
+entity_type: commerce_product_variation
+bundle: zapatos
+label: 'Tallas disponibles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      talla_zapato: talla_zapato
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: talla_ropa
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: f2b79ffd-8c1f-4ae5-82fe-169c0933cfdd
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.zapatos
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.zapatos.body
+field_name: body
+entity_type: commerce_product
+bundle: zapatos
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

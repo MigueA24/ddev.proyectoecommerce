@@ -1,0 +1,11 @@
+uuid: 7f7899b8-e439-417c-ad4f-f1dfb585c145
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.pantalones
+id: commerce_product_variation.pantalones
+target_entity_type_id: commerce_product_variation
+target_bundle: pantalones
+default_langcode: site_default
+language_alterable: false

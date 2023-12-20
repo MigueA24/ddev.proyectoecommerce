@@ -1,0 +1,14 @@
+uuid: 09c0b94e-811d-43b4-8aaf-554a30e9e425
+langcode: es
+status: true
+dependencies: {  }
+id: pantalones
+label: Pantalones
+traits: {  }
+locked: false
+description: 'Pantalones de todo tipos.'
+variationType: pantalones
+variationTypes:
+  - pantalones
+multipleVariations: true
+injectVariationFields: true

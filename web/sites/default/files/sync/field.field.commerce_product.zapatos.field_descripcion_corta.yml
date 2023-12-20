@@ -1,0 +1,19 @@
+uuid: ae535534-fd79-4676-9129-e4bae8b1037d
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.zapatos
+    - field.storage.commerce_product.field_descripcion_corta
+id: commerce_product.zapatos.field_descripcion_corta
+field_name: field_descripcion_corta
+entity_type: commerce_product
+bundle: zapatos
+label: 'Descripción corta'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

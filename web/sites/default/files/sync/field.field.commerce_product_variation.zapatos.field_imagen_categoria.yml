@@ -1,0 +1,38 @@
+uuid: a2e33a65-53cc-4af9-8365-61229582cd80
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.zapatos
+    - field.storage.commerce_product_variation.field_imagen_categoria
+  module:
+    - image
+id: commerce_product_variation.zapatos.field_imagen_categoria
+field_name: field_imagen_categoria
+entity_type: commerce_product_variation
+bundle: zapatos
+label: 'Imagen Categoría'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: imagencategoria
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: true
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

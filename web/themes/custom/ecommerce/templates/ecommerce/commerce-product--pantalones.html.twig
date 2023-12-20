@@ -1,0 +1,92 @@
+{#
+/**
+ * @file
+ *
+ * Default product template.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product: The rendered product fields.
+ *   Use 'product' to print them all, or print a subset such as
+ *   'product.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product|without('title') }}
+ *   @endcode
+ * - product_entity: The product entity.
+ * - product_url: The product URL.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<style type="text/css">
+
+  .page-header {display: none;
+  }
+
+</style>
+
+<article{{ attributes }}>
+  {#- product|without('variation_attributes') -#}
+</article>
+
+{# dump( product|keys ) #}
+
+<div class="col-md-6">
+
+  {{ product.variation_field_imagen_categoria }}
+
+</div>
+
+<div class="col-md-6">
+
+  <h3> {{ product.title }} </h3>
+  <br>
+  {{ product.field_categoria }}
+  <br>
+  {{ product.variation_field_talla }}
+  <br>
+  <form>
+    <select class="listaselect">
+      <option disabled selected>Tallas:</option>
+      <option>{{ product.variation_field_talla.0 }}</option>
+      <option>{{ product.variation_field_talla.1 }}</option>
+      <option>{{ product.variation_field_talla.2 }}</option>
+      <option>{{ product.variation_field_talla.3 }}</option>
+      <option>{{ product.variation_field_talla.4 }}</option>
+      <option>{{ product.variation_field_talla.5 }}</option>
+    </select>
+  </form>
+  <br>
+  {{ product.variation_price }}
+  <br>
+  {{ product.field_descripcion_corta }}
+  <br>
+  {{ product.variations }}
+
+</div>
+
+<div class=" row col-md-12 ">
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#Descripcion">Descripción</a></li>
+    <li><a data-toggle="tab" href="#Especificaciones">Tallas y Dimensiones</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="Descripcion" class="tab-pane fade in active">
+      <h3><strong>Descripción</strong></h3>
+      <p> {{ product.body }}</p>
+    </div>
+    <div id="Especificaciones" class="tab-pane fade">
+      <br>
+      <h4><strong>Medidas del producto</strong></h4>
+      <p> {{ product.field_medidas }}</p>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,7 @@
 @charset "UTF-8";
-h1 {
-  color: red; }
+.form-item.js-form-item.form-type-textfield.js-form-type-textfield.form-item-titulo.js-form-item-titulo.form-group {
+  color: white;
+  margin-left: -30px; }
 
 .service-img img {
   margin: auto;

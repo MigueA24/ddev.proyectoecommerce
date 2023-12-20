@@ -1,0 +1,21 @@
+uuid: 17ccf54b-1262-4772-9c5a-79f040a29a0d
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.pantalones
+    - field.storage.commerce_product.field_especificaciones
+  module:
+    - text
+id: commerce_product.pantalones.field_especificaciones
+field_name: field_especificaciones
+entity_type: commerce_product
+bundle: pantalones
+label: Especificaciones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

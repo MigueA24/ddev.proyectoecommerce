@@ -1,0 +1,10 @@
+uuid: 59015afe-7024-40cb-bf34-2d0724d0cb64
+langcode: es
+status: true
+dependencies: {  }
+id: zapatos
+label: Zapatos
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false
