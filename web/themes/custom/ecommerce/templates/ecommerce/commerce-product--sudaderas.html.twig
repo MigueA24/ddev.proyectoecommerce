@@ -51,6 +51,18 @@
   <br>
   {{ product.variation_field_talla }}
   <br>
+  <form>
+    <select class="listaselect">
+      <option disabled selected>Tallas:</option>
+      <option>{{ product.variation_field_talla.0 }}</option>
+      <option>{{ product.variation_field_talla.1 }}</option>
+      <option>{{ product.variation_field_talla.2 }}</option>
+      <option>{{ product.variation_field_talla.3 }}</option>
+      <option>{{ product.variation_field_talla.4 }}</option>
+      <option>{{ product.variation_field_talla.5 }}</option>
+    </select>
+  </form>
+  <br>
   {{ product.variation_price }}
   <br>
   {{ product.field_descripcion_corta }}

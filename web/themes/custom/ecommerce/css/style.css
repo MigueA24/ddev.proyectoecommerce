@@ -604,3 +604,17 @@ article.contextual-region.blog.is-unpublished.full.clearfix {
   position: relative;
   top: -615px;
   overflow: hidden; }
+
+/* Estilos para la lista de selección */
+.listaselect {
+  padding: 10px;
+  font-size: 15px;
+  width: 102px;
+  margin-left: 0px; }
+
+.listaselect:hover {
+  background-color: #f9f9f9; }
+
+/* Estilos para las opciones de la lista */
+.listaselect option {
+  padding: 10px; }

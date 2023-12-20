@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4483e9ccd21ae3b9c9948fc758629237f0264a36',
+        'reference' => '557cfe7aabc22f13b5820f1cd80ed8d1027a009d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -556,6 +556,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/entity_reference_views_select' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'reference' => '8.x-1.5',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/entity_reference_views_select',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/flexslider' => array(
             'pretty_version' => '2.0.0',
             'version' => '2.0.0.0',
@@ -595,7 +604,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4483e9ccd21ae3b9c9948fc758629237f0264a36',
+            'reference' => '557cfe7aabc22f13b5820f1cd80ed8d1027a009d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -7,6 +7,7 @@ dependencies:
     - field.field.commerce_product_variation.sudaderas.attribute_color
     - field.field.commerce_product_variation.sudaderas.field_imagen_categoria
     - field.field.commerce_product_variation.sudaderas.field_talla
+    - field.field.commerce_product_variation.sudaderas.field_talla_seleccionadaaa
     - image.style.large
   module:
     - commerce_price
@@ -34,6 +35,14 @@ content:
       link: false
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_talla_seleccionadaaa:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
     region: content
   list_price:
     type: commerce_price_default
