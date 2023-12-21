@@ -88,6 +88,7 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Svg\\' => 4,
             'SelfUpdate\\' => 11,
+            'Sainsburys\\Guzzle\\Oauth2\\' => 25,
             'Sabberworm\\CSS\\' => 15,
         ),
         'R' => 
@@ -129,6 +130,7 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         'F' => 
         array (
             'FontLib\\' => 8,
+            'Firebase\\JWT\\' => 13,
         ),
         'E' => 
         array (
@@ -167,6 +169,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
             'Composer\\Installers\\' => 20,
             'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
+        ),
+        'B' => 
+        array (
+            'Braintree\\' => 10,
         ),
         'A' => 
         array (
@@ -323,6 +329,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
         ),
+        'Sainsburys\\Guzzle\\Oauth2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sainsburys/guzzle-oauth2-plugin/src',
+        ),
         'Sabberworm\\CSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
@@ -403,6 +413,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Enlightn\\SecurityChecker\\' => 
         array (
@@ -521,6 +535,10 @@ class ComposerStaticInite9201e9e5316749df6c71da220647fda
         'CommerceGuys\\Addressing\\' => 
         array (
             0 => __DIR__ . '/..' . '/commerceguys/addressing/src',
+        ),
+        'Braintree\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/braintree/braintree_php/lib/Braintree',
         ),
         'Asm89\\Stack\\' => 
         array (

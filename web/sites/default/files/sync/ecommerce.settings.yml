@@ -4,10 +4,10 @@ schemas:
   bootstrap: 8000
   ecommerce: 8000
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: 'public://Logo sin fondo.png'
   url: /themes/custom/ecommerce/favicon.ico
-  use_default: 1
+  use_default: 0
 features:
   comment_user_picture: 1
   comment_user_verification: 1

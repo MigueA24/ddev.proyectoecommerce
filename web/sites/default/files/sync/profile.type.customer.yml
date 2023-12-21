@@ -15,6 +15,7 @@ label: Cliente
 display_label: 'Datos del cliente'
 multiple: true
 registration: false
-roles: {  }
+roles:
+  authenticated: authenticated
 allow_revisions: false
 new_revision: false

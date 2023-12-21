@@ -1,0 +1,23 @@
+uuid: 9a5e4429-9c08-405b-be9a-67a94cced895
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: Paypal
+weight: -10
+plugin: paypal_express_checkout
+configuration:
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  api_username: sb-i8p7m28861491_api1.business.example.com
+  api_password: H3EBPBLSYUTNK26X
+  shipping_prompt: shipping_skip
+  signature: AiUCcpVHzZJ-qmwAd.qbsp0AASTIAIMRsRkPgAVwkfCeQbViNJVtZeCG
+  solution_type: Mark
+conditions: {  }
+conditionOperator: AND

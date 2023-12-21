@@ -1,0 +1,19 @@
+uuid: c693d7d8-d18c-4792-9ef7-0f8b70ab010c
+langcode: es
+status: true
+dependencies: {  }
+id: online
+label: Online
+weight: -9
+plugin: manual
+configuration:
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
+conditions: {  }
+conditionOperator: AND
